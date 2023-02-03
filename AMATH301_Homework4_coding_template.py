@@ -26,8 +26,8 @@ A3 = x(max[0])
 ## Part b
 # Look at some examples of how we have used fminbound in class, for example on
 # January 23, 24, or 27.
-negXP = lambda t: -1 * xprime(t)
-tval = scipy.optimize.fminbound(negXP, 0, 10)
+negX = lambda t: -1 * x(t)
+tval = scipy.optimize.fminbound(negX, 0, 10)
 A4 = [tval, x(tval)]
 
 ############## Problem 2 ################
